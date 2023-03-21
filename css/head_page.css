@@ -74,6 +74,7 @@
 .programs .programs_items .program_special {
     background: #DEE6EE;
     border-radius: 190px;
+    -webkit-border-radius: 190px;
 }
 
 .programs .programs_items .program_special p {
@@ -152,6 +153,7 @@
     background-color: #64D370;
     box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
     border-radius: 30px;
+    -webkit-border-radius: 30px;
     padding: 30px 51px 39px 49px;
 }
 
@@ -230,6 +232,7 @@
     background: #64D370;
     box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
     border-radius: 190px;
+    -webkit-border-radius: 190px;
     font-family: 'Comfortaa';
     font-weight: 700;
     font-size: 26px;
@@ -278,6 +281,7 @@
     background: #F5FAFF;
     box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
     border-radius: 30px;
+    -webkit-border-radius: 30px;
 }
 
 .information_programs .week .menu .menu_day {
@@ -300,6 +304,7 @@
     background: #F5FAFF;
     box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
     border-radius: 30px;
+    -webkit-border-radius: 30px;
 }
 
 .information_programs .week .menu .menu_day .meal {
@@ -398,6 +403,7 @@
 .banner .banner_item .left_blok .dop_content .btn span {
     background: #64D370;
     border-radius: 190px;
+    -webkit-border-radius: 190px;
     font-family: 'Comfortaa';
     font-weight: 700;
     font-size: 26px;
