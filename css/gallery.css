@@ -1,11 +1,13 @@
 .gallery_foto {
     margin-top: 120px;
+   
 }
 
 .gallery_foto .foto_dishes .foto {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
     column-gap: 20px;
+    cursor: pointer;
 }
 
 

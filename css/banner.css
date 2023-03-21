@@ -101,8 +101,12 @@
     }
 
     .banner .background_image .product_image1 img {
-        height: 360px !important;
+        height: 320px !important;
         padding-top: 45px;
+    }
+
+    .breadcrumb {
+        margin-top: 50px;
     }
 }
 
