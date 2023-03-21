@@ -34,6 +34,7 @@
     background-color: #F5FAFF;
     box-shadow: 0px 0px 30px rgba(86, 86, 86, 0.25);
     border-radius: 190px;
+    -webkit-border-radius: 190px;
     transition: padding-right 0.5s;
     overflow: hidden;
     margin-right: 20px;
@@ -70,6 +71,7 @@
     background-color: #F5FAFF;
     display: block;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
     width: 80px;
     height: 80px;
     transition: color .35s;
@@ -118,6 +120,7 @@
     background: #000;
     box-shadow: 0px 0px 30px rgba(86, 86, 86, 0.25);
     border-radius: 50%;
+    -webkit-border-radius: 50%;
     width: 25px;
     height: 25px;
     margin-top: -85px;
@@ -143,6 +146,7 @@
     background: #F5FAFF;
     box-shadow: 0px 0px 30px rgba(86, 86, 86, 0.25);
     border-radius: 10px;
+    -webkit-border-radius: 10px;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;

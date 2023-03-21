@@ -25,6 +25,7 @@
     height: 30px;
     background: #DEE6EE;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
     cursor: pointer;
     vertical-align: middle;
 }
@@ -72,6 +73,7 @@
 .dop_panel .btn_order a {
     background: #64D370;
     border-radius: 190px;
+    -webkit-border-radius: 190px;
     padding: 10px 35px;
     color: #F5FAFF;
     text-decoration: none;
@@ -118,6 +120,7 @@
     object-position: 0 71%;
     filter: drop-shadow(0px 0px 20px rgba(86, 86, 86, 0.5));
     border-radius: 30px;
+    -webkit-border-radius: 30px;
     display: block;
 }
 
@@ -165,6 +168,7 @@
     height: 30px;
     background: #DEE6EE;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
     cursor: pointer;
     vertical-align: middle;
 }

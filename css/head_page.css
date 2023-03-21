@@ -11,6 +11,7 @@
     justify-content: space-around;
     background: rgba(245, 250, 255, 0.8);
     border-radius: 30px;
+    -webkit-border-radius: 30px;
     padding-top: 37px;
     padding-bottom: 43px;
     z-index: 5;
@@ -50,6 +51,7 @@
     background: #64D370;
     box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
     border-radius: 190px;
+    -webkit-border-radius: 190px;
 }
 
 .programs .programs_items .program_nutrition p {
@@ -92,6 +94,7 @@
     outline: 3px solid #64D370;
     box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
     border-radius: 190px;
+    -webkit-border-radius: 190px;
 }
 
 

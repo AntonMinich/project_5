@@ -16,6 +16,7 @@
     max-width: 100%;
     overflow: hidden;
     border-radius: 30px;
+    -webkit-border-radius: 30px;
     filter: drop-shadow(0px 0px 20px rgba(86, 86, 86, 0.5));
 }
 
@@ -51,6 +52,7 @@
     color: #64D370;
     border: 1.5px solid #64D370;
     border-radius: 190px;
+    -webkit-border-radius: 190px;
     padding: 8px 20px;
     margin-top: 20px;
     display: inline-block;
