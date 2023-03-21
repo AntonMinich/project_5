@@ -1,0 +1,320 @@
+.first_container header .header_menu .menu ul li a:hover,
+.first_container header .header_menu .menu ul li:nth-of-type(3) a {
+    color: #64D370;
+}
+
+/*  */
+
+.breadcrumb {
+    margin-top: 20px;
+}
+
+.breadcrumb .color {
+    color: #000000;
+    text-decoration: none;
+}
+
+.breadcrumb .color:hover {
+    color: #64D370;
+}
+
+.dop_panel .btn_back span:nth-child(1) {
+    display: inline-grid;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background: #DEE6EE;
+    border-radius: 50%;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.dop_panel .btn_back span:nth-child(1):hover {
+    background: #64D370;
+}
+
+.dop_panel .btn_back span:nth-child(1):hover .icon_no_active {
+    display: none;
+}
+
+.dop_panel .btn_back span:nth-child(1) .hover {
+    display: none;
+}
+
+.dop_panel .btn_back span:nth-child(1):hover .hover {
+    display: inline-block;
+}
+
+.dop_panel .btn_back span a {
+    padding-top: 7px;
+}
+
+.dop_panel .btn_back span:nth-child(2) {
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #020202;
+    margin-left: 15px;
+    vertical-align: sub;
+}
+
+.dop_panel .btn_order {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 133.8%;
+    letter-spacing: 0.025em;
+    text-align: right;
+
+}
+
+.dop_panel .btn_order a {
+    background: #64D370;
+    border-radius: 190px;
+    padding: 10px 35px;
+    color: #F5FAFF;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.dop_panel .btn_order a:hover {
+    color: #64D370;
+    background: #F5FAFF;
+    outline: 3px solid #64D370;
+}
+
+.dop_panel .btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.dop_panel .btns:hover svg path {
+    fill: #ffffff;
+}
+
+
+/*  */
+
+.content .product_item {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.content .product_item .image_item {
+    width: 580px;
+    height: 288px;
+    width: 100%;
+}
+
+.content .product_item .image_item img {
+    width: 100%;
+    height: 288px;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: 0 71%;
+    filter: drop-shadow(0px 0px 20px rgba(86, 86, 86, 0.5));
+    border-radius: 30px;
+    display: block;
+}
+
+.content .product_item .text_product h5 {
+    font-family: 'Comfortaa';
+    font-size: 18px;
+    line-height: 20px;
+    color: #020202;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.content .product_item .text_product p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 133.8%;
+    letter-spacing: 0.025em;
+    color: #020202;
+    margin-bottom: 10px;
+}
+
+.content .product_item .text_product p span {
+    font-weight: 700;
+}
+
+.content .product_item .text_product .сompound span {
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    color: #020202;
+    margin-right: 30px;
+}
+
+.content .product_item .text_product .price {
+    margin-top: 29px;
+}
+
+.content .product_item .text_product .price .btn_minus,
+.content .product_item .text_product .price .btn_plus {
+    display: inline-grid;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background: #DEE6EE;
+    border-radius: 50%;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+
+.content .product_item .text_product .price span {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.025em;
+    color: #64D370;
+    margin: 0 15px;
+    vertical-align: middle;
+}
+
+
+
+
+.content .product_item .text_product .price span:nth-child(4) {
+    margin-left: 26px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 60px;
+}
+
+.full_640 {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1300px) {
+    .center {
+        width: 90% !important;
+    }
+
+    .full_640 {
+        display: none;
+    }
+
+    .dop_panel .btns {
+        margin-top: 40px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    /* .banner .background_image .banner_content p {
+        width: 740px;
+    } */
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .content .product_item .image_item,
+    .content .product_item .image_item img {
+        height: 134px;
+    }
+
+    .content .product_item .text_product h5,
+    .content .product_item .text_product .сompound span {
+        font-size: 10px;
+    }
+
+    .content .product_item .text_product p {
+        font-size: 8px;
+    }
+
+    .content .product_item .text_product .сompound span {
+        margin-right: 8px;
+    }
+
+    .content .product_item .text_product h5 {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .content {
+        row-gap: 39px;
+    }
+
+    .content .product_item .text_product .price {
+        margin-top: 13px;
+    }
+
+    .content .product_item .text_product .price span,
+    .dop_panel .btn_order a,
+    .dop_panel .btn_back span:nth-child(2) {
+        font-size: 12px;
+    }
+
+    .content .product_item .text_product .price span:nth-child(4) {
+        margin-left: 12px;
+    }
+
+    .dop_panel .btn_order a {
+        padding: 5px 17px;
+    }
+
+    .dop_panel .btn_back span:nth-child(1) {
+        width: 22px;
+        height: 22px;
+    }
+
+    .dop_panel .btn_back span svg {
+        width: 6px;
+        height: 12px;
+    }
+
+    .dop_panel .btn_back span a {
+        padding-top: 5px;
+    }
+
+    .dop_panel .btn_back span:nth-child(2) {
+        vertical-align: baseline;
+    }
+
+    .dop_panel .btn_back {
+        align-self: center;
+    }
+
+    .gallery_foto {
+        margin-top: 70px;
+    }
+
+    .breadcrumb {
+        margin-top: 20px;
+    }
+
+    @media screen and (max-width: 480px) {
+        .content {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    @media screen and (max-width: 340px) {
+        .dop_panel .btns {
+            grid-template-columns: 1fr;
+        }
+
+        .dop_panel .btn_order {
+            text-align: left;
+            margin-top: 10px;
+        }
+    }
+}

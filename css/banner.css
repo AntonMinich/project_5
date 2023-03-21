@@ -1,0 +1,138 @@
+.banner .background_image .product_image1 {
+    width: 864px;
+    height: auto;
+    width: 100%;
+}
+
+.banner .background_image .product_image1 img {
+    width: 864px;
+    height: 460px;
+    object-fit: cover;
+    text-align: right;
+    width: 100%;
+}
+
+.banner .background_image .product_image2 {
+    width: 486px;
+    height: 460px;
+    width: 100%;
+}
+
+.banner .background_image .product_image2 img {
+    width: 486px;
+    height: 460px;
+    object-fit: cover;
+    object-position: 0 80%;
+    transform: scale(-1, 1);
+    width: 100%;
+}
+
+.banner .background_image {
+    display: grid;
+    grid-template-columns: 1fr 486px;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+.banner .background_image .banner_content {
+    position: absolute;
+    width: 1920px;
+    background-color: rgba(2, 2, 2, 0.7);
+    box-shadow: inset 0px 0px 30px rgba(86, 86, 86, 0.25);
+    font-family: 'Comfortaa';
+    height: auto;
+}
+
+.banner .background_image .banner_content h5 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    line-height: 133.8%;
+    text-align: center;
+    letter-spacing: 0.025em;
+    color: #F5FAFF;
+}
+
+.banner .background_image .banner_content p {
+    font-size: 18px;
+    line-height: 133.8%;
+    text-align: center;
+    letter-spacing: 0.025em;
+    color: #F5FAFF;
+    padding-bottom: 83px;
+    width: 980px;
+    margin: 0 auto;
+    height: auto;
+}
+
+@media screen and (max-width: 1300px) {
+    .banner .background_image .product_image2 {
+        display: none;
+    }
+
+    .banner .background_image {
+        height: auto;
+    }
+
+    .banner .background_image {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .banner .background_image .banner_content p {
+        width: 90% !important;
+    }
+
+    .banner .background_image .banner_content {
+        width: 100% !important;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .banner .background_image .banner_content p {
+        font-size: 12px !important;
+    }
+
+    .banner .background_image .banner_content h5 {
+        font-size: 20px;
+    }
+
+    .banner .background_image .product_image1 img {
+        height: 360px !important;
+        padding-top: 45px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .banner .background_image .product_image1 img {
+        height: 445px !important;
+        margin-top: -150px;
+    }
+
+    .banner .background_image .banner_content p {
+        padding-bottom: 40px !important;
+    }
+
+    .banner .background_image .banner_content h5 {
+        margin-top: 25px !important;
+        margin-bottom: 15px !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .banner .background_image .product_image1 img {
+        margin-top: -80px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .banner .background_image .product_image1 img {
+        margin-top: -20px;
+    }
+}

@@ -1,0 +1,171 @@
+.greetings .banner_item {
+    display: grid;
+    grid-template-columns: 526px auto;
+}
+
+.greetings .banner_item .right_blok .founder {
+    z-index: 99;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    width: 90%;
+}
+
+.big-green {
+    position: relative;
+    right: 0;
+    z-index: 0;
+    width: 100%;
+}
+
+.greetings .banner_item .left_blok h4 {
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 45px;
+    letter-spacing: 0.025em;
+    color: #020202;
+    margin-bottom: 40px;
+
+}
+
+.greetings .banner_item .left_blok p {
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22px;
+    color: #020202;
+    margin-bottom: 20px;
+}
+
+.greetings .banner_item .left_blok {
+    align-self: center;
+}
+
+.greetings {
+    margin-left: 18%;
+    margin-top: -170px;
+    margin-bottom: 300px;
+}
+
+
+.greetings .banner_item .left_blok h4 span {
+    color: #64D370;
+}
+
+.greetings .banner_item .left_blok p:last-of-type {
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.greetings .banner_item .right_blok {
+    justify-self: end;
+    position: relative;
+}
+
+@media screen and (max-width: 1680px) {
+    .greetings .banner_item {
+        grid-template-columns: 50% 50%;
+    }
+
+    .greetings {
+        margin-left: 10%;
+    }
+
+    .greetings .banner_item .right_blok .founder {
+        top: 150px;
+    }
+
+    .greetings .banner_item .left_blok {
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .greetings .banner_item .left_blok h4 {
+        margin-bottom: 20px;
+        font-size: 26px;
+        line-height: 133%;
+    }
+
+    .greetings {
+        margin-bottom: 100px;
+    }
+
+    .greetings .banner_item .left_blok p {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .greetings .banner_item .left_blok p:last-of-type {
+        margin-top: 20px;
+    }
+
+    .greetings {
+        margin-left: 10%;
+    }
+
+    .greetings .banner_item .right_blok .founder {
+        top: 120px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .greetings .banner_item {
+        grid-template-columns: 1fr;
+    }
+
+    .greetings {
+        margin-bottom: 150px;
+    }
+
+    .greetings .banner_item .left_blok {
+        grid-row: 2;
+        width: 90%;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .greetings .banner_item .left_blok h4 {
+        font-size: 17px;
+    }
+
+    .greetings .banner_item .left_blok p {
+        font-size: 10px;
+    }
+
+    .greetings .banner_item .left_blok h4 {
+        margin-bottom: 10px;
+    }
+
+    .greetings .banner_item .left_blok p:last-of-type {
+        margin-top: 10px;
+    }
+
+    .greetings .banner_item .left_blok p {
+        line-height: 14px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .greetings .banner_item .right_blok .founder {
+        top: 110px;
+        right: 0px;
+    }
+
+    .greetings .banner_item .right_blok {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .greetings .banner_item .right_blok .founder {
+        width: 80%;
+    }
+
+    .greetings .banner_item .right_blok .founder {
+        top: 110px;
+    }
+}

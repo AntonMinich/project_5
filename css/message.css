@@ -1,0 +1,202 @@
+.messages {
+    top: 760px;
+    right: 40px;
+    position: fixed;
+    z-index: 100;
+}
+
+/* .forms_messanger {
+    width: 250px;
+}  */
+
+.forms_messanger .soc-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.forms_messanger .soc-container label {
+    grid-column: 2;
+}
+
+.forms_messanger .soc-container .soc-body {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+
+
+.forms_messanger .soc-container .soc-body {
+    margin: 0 auto;
+    height: 0px;
+    max-height: 52px;
+    width: 105px;
+    background-color: #F5FAFF;
+    box-shadow: 0px 0px 30px rgba(86, 86, 86, 0.25);
+    border-radius: 190px;
+    transition: padding-right 0.5s;
+    overflow: hidden;
+    margin-right: 20px;
+    transition: 0.8s;
+}
+
+.forms_messanger .soc-container .soc-body .social {
+    width: 75px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-top: 10px;
+    
+}
+
+.forms_messanger .soc-container label:hover {
+    background-color: #64D370;
+}
+
+.forms_messanger .soc-container input:checked+label:hover {
+    background-color: #F35353;
+}
+
+.forms_messanger .soc-container label:hover svg path {
+    fill: #F5FAFF;
+}
+
+.forms_messanger .soc-container label:hover svg rect {
+    fill: #F5FAFF;
+}
+
+.forms_messanger .soc-container label {
+    cursor: pointer;
+    background-color: #F5FAFF;
+    display: block;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    transition: color .35s;
+    box-shadow: 0px 0px 30px rgba(86, 86, 86, 0.25);
+    text-align: center;
+
+}
+
+.forms_messanger .soc-container input {
+    display: none;
+}
+
+.forms_messanger .soc-container .close {
+    display: none;
+    margin-top: 30px;
+}
+
+.forms_messanger .soc-container .icon {
+    margin-top: 15px;
+}
+
+.forms_messanger .soc-container input:checked+label .close {
+    display: inline-block;
+}
+
+.forms_messanger .soc-container input:checked+label .icon {
+    display: none;
+}
+
+.forms_messanger .soc-container input:checked+label+.soc-body {
+    height: 52px;
+}
+
+.forms_messanger .messenger {
+    grid-column: 2/3;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.forms_messanger .messenger .img_telegram {
+    margin-top: -20px;
+}
+
+.forms_messanger .count_message {
+    background: #000;
+    box-shadow: 0px 0px 30px rgba(86, 86, 86, 0.25);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: -85px;
+}
+
+.forms_messanger .count_message span {
+    padding-left: 9px;
+    vertical-align: sub;
+    color: #F5FAFF;
+}
+
+.forms_messanger .messenger .img_telegram:hover img,
+.forms_messanger .messenger .img_viber:hover img,
+.forms_messanger .soc-container .soc-body .social .social_instagram:hover,
+.forms_messanger .soc-container .soc-body .social .social_facebook:hover {
+    transform: scale(1.2);
+}
+
+.notification-info{
+	position: absolute;
+    right: -300px;
+    top: -70px;
+    background: #F5FAFF;
+    box-shadow: 0px 0px 30px rgba(86, 86, 86, 0.25);
+    border-radius: 10px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 207px;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    transition-duration: .8s;
+}
+
+.notification-info span {
+    color:#64D370;
+}
+
+.notification-info p {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    line-height: 133.8%;
+    padding: 12px 18px;
+}
+
+.notification-info.notification-show{
+	position: absolute;
+    right: 47px;
+    opacity: 1;
+    top: -80px;
+}
+
+
+/*  */
+
+@media screen and (max-width: 600px) {
+    .forms_messanger {
+        display: none;
+    }
+}
+
+@media (max-height: 870px) {
+    .messages {
+        top: 700px;
+
+    }
+}
+
+@media (max-height: 830px) {
+    .messages {
+        top: 640px;
+    }
+}
+
+@media (max-height: 770px) {
+    .messages {
+        top: 550px;
+    }
+}

@@ -1,0 +1,264 @@
+.first_container header .header_menu .menu ul li a:hover,
+.first_container header .header_menu .menu ul li:nth-of-type(2) a {
+    color: #64D370;
+}
+
+.dop_panel .btn_order {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 133.8%;
+    letter-spacing: 0.025em;
+    text-align: right;
+
+}
+
+.dop_panel .btn_order a {
+    background: #64D370;
+    border-radius: 190px;
+    padding: 10px 35px;
+    color: #F5FAFF;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.dop_panel .btn_order a:hover {
+    color: #64D370;
+    background: #F5FAFF;
+    outline: 3px solid #64D370;
+}
+
+.dop_panel .btn_order {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+/*  */
+
+.content .business_lanches_items .lanch_item .image_item {
+    width: 577px;
+    height: 288px;
+    filter: drop-shadow(0px 0px 20px rgba(86, 86, 86, 0.5));
+    overflow: hidden;
+    border-radius: 30px;
+    width: 100%;
+
+}
+
+.content .business_lanches_items .lanch_item .image_item img {
+    width: 577px;
+    height: 288px;
+    max-width: 100%;
+    object-fit: cover;
+    display: block;
+    width: 100%;
+}
+
+.content .business_lanches_items .lanch_item:nth-child(odd) .image_item img {
+    transform: scale(1.25);
+    object-position: -30px 53%;
+}
+
+.content .business_lanches_items .lanch_item:nth-child(even) .image_item img {
+    object-position: 0 57%;
+}
+
+.content .business_lanches_items .lanch_item {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.content .business_lanches_items .lanch_item .text_product .subtitle h5 {
+    font-family: 'Comfortaa';
+    font-size: 18px;
+    line-height: 20px;
+    color: #020202;
+}
+
+.content .business_lanches_items .lanch_item .text_product .subtitle .unit {
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 133.8%;
+    letter-spacing: 0.025em;
+    color: #64D370;
+    justify-self: end;
+}
+
+.content .business_lanches_items .lanch_item .text_product .subtitle .unit span:last-child {
+    margin-left: 55px;
+}
+
+.content .business_lanches_items .lanch_item .text_product {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.content .business_lanches_items .lanch_item .text_product .subtitle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    margin-top: 46px;
+    margin-bottom: 9px;
+}
+
+.content .business_lanches_items .lanch_item .text_product .сompound {
+    display: inline-grid;
+    margin-bottom: 20px;
+}
+
+.content .business_lanches_items .lanch_item .text_product .сompound span {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 133.8%;
+    letter-spacing: 0.025em;
+    color: #020202;
+}
+
+.content .business_lanches_items .lanch_item .text_product .price .btn_minus,
+.content .business_lanches_items .lanch_item .text_product .price .btn_plus {
+    display: inline-grid;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background: #DEE6EE;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.content .business_lanches_items .lanch_item .text_product .price span {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.025em;
+    color: #64D370;
+    margin: 0 15px;
+    vertical-align: middle;
+}
+
+.content .business_lanches_items .lanch_item .price .btn_minus img,
+.content .business_lanches_items .lanch_item .price .btn_plus img {
+    vertical-align: middle;
+}
+
+.content .business_lanches_items .lanch_item .text_product .price .portion {
+    margin-left: 39px;
+    display: inline-grid;
+    vertical-align: middle;
+}
+
+.content .business_lanches_items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 85px;
+}
+
+.full_640 {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1300px) {
+    .center {
+        width: 90% !important;
+    }
+
+    .full_640 {
+        display: none;
+    }
+
+    .dop_panel {
+        padding-top: 0px;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .content .business_lanches_items .lanch_item .text_product .price .portion {
+        margin-left: 0px;
+    }
+
+    .content .business_lanches_items .lanch_item .text_product .subtitle .unit span:last-child {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .content .business_lanches_items .lanch_item .text_product .subtitle h5,
+    .content .business_lanches_items .lanch_item .text_product .subtitle .unit {
+        font-size: 10px;
+        justify-self: start;
+    }
+
+    .content .business_lanches_items .lanch_item .text_product .сompound span {
+        font-size: 8px;
+    }
+
+    .content .business_lanches_items .lanch_item .text_product .price span,
+    .banner .background_image .banner_content p {
+        font-size: 12px !important;
+    }
+
+    .content .business_lanches_items .lanch_item .image_item {
+        width: 270px;
+        height: 135px;
+    }
+
+    .content .business_lanches_items {
+        row-gap: 31px;
+        column-gap: 10px;
+        justify-items: center;
+    }
+
+    .content .business_lanches_items .lanch_item .text_product .subtitle {
+        margin-top: 20px;
+    }
+
+    .content .business_lanches_items .lanch_item .price .btn_plus img {
+        width: 6px;
+        vertical-align: super;
+    }
+
+    .content .business_lanches_items .lanch_item .price .btn_minus img {
+        width: 4px;
+        vertical-align: top;
+        margin-top: 5px;
+
+    }
+
+    .content .business_lanches_items .lanch_item .text_product .price .btn_minus,
+    .content .business_lanches_items .lanch_item .text_product .price .btn_plus {
+        width: 15px;
+        height: 14px;
+    }
+
+    .dop_panel .btn_order a {
+        font-size: 12px;
+        padding: 5px 17px;
+    }
+
+    .dop_panel .btn_order {
+        margin-top: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .content .business_lanches_items {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .dop_panel .btn_order {
+        margin-top: 40px;
+    }
+}
